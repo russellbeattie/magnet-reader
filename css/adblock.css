@@ -1,0 +1,61 @@
+img[src*="/~ff/"],
+img[src*="/~r/"],
+img[src^="http://ads."], 
+img[src*="advertisement"],
+img[src*="auslieferung"],
+a[href^="http://ads."],
+a[href^="http://ad."],
+a[href*="buysellad"],
+a[href^="http://feedads."],
+a[href^="http://d.ads."],
+a[href*="addata"] img, 
+a[href*="ad."] img, 
+a[href*="ads."] img, 
+a[href*="/ad"] img, 
+a[href*="/a="] img, 
+a[href*="/click"] img, 
+a[href*="?click"] img, 
+a[href*="?banner"] img, 
+a[href*="=click"] img, 
+a[href*="clickurl="] img, 
+a[href*=".atwola."] img, 
+a[href*="spinbox."] img, 
+a[href*="transfer.go"] img, 
+a[href*="adfarm"] img, 
+a[href*="adSpace"] img, 
+a[href*="adserve"] img, 
+a[href*=".banner"] img, 
+a[href*="bluestreak"] img, 
+a[href*="doubleclick"] img, 
+a[href*="/rd."] img, 
+a[href*="/0aD"] img, 
+a[href*=".falkag."] img, 
+a[href*="trackoffer."] img, 
+a[href*="casalemedia."] img, 
+a[href*="valueclick."] img, 
+a[href*="betterbasketball."] img, 
+a[href*="sponsors.phtml"] img, 
+a[href*="realgmtix.phtml"] img, 
+a[href*="BurstingPipe"] img,
+a[href*="ebayobjects"] img,
+a[href*="tracksponsor."] img
+{
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+}
+
+a[href*="/add"] img, 
+a[href*="/adsl"] img,
+a[href*="thread."] img,
+a[href*="download."] img,
+a[href*="downloads."] img,
+a[href*="netflix.com/addToQueue"] img,
+a[href*="load."], 
+a[href*="loads."], 
+a[href*="click.mp3"] img 
+{ 
+	display: inline !important 
+}
+
+

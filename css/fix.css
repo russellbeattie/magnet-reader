@@ -1,0 +1,117 @@
+
+
+/* fixes for bootstrap.css */
+
+
+p{
+	font-size: inherit;
+	line-height: inherit;
+	font-family: inherit;
+	margin: inherit;
+}
+
+blockquote p{
+
+font-size: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+
+.page{
+	padding-top: 40px;
+}
+
+
+.navbar{
+	font-size: .85em;
+}
+
+
+
+.navbar-inner{
+	height: 40px;
+	background-color: #1578ED;
+	background-image: none;
+}
+
+.navbar-inner .container, .navbar-inner .container-fluid{
+	padding: 0px;
+	margin: 0px auto;
+}
+
+
+.navbar-fixed{
+	margin: 0px;
+}
+
+.navbar .brand{
+	padding: 5px 0px 0px;
+	margin-left: 10px;
+}
+
+.navbar .nav.pull-right{
+	margin-right: 10px;
+}
+
+
+.folderMenu{
+	font-size: .9em !important;
+}	
+.folderMenu a {
+	display: inline;	
+}
+.folderMenu li{
+	padding: 3px 5px 3px 0px;
+	margin: 5px 0;
+}
+.folderMenu li:hover{
+	background-color: #0088cc;
+}
+
+.container, .container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	max-width: 920px;
+	min-width: 300px;
+	margin: 0px auto;
+	overflow-hidden;
+}
+
+.icon-save{
+	background-position: 0 -96px;
+}
+.icon-saved{
+	background-position: -24px -96px;
+}
+
+@media screen and (max-device-width: 640px) {
+	
+	body{
+		font-size: 14px;
+	}
+	.column{
+		padding: 0px;
+	}
+	
+	.sourceItem{
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	
+	.navbar-inner{
+		height: inherit;
+	}
+	
+	.navbar-fixed-top{
+		position: relative;
+	}
+	
+	.page{
+		padding-top: 10px;
+	}
+	
+}
+
+
+
+  

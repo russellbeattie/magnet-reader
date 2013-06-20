@@ -1,0 +1,8 @@
+
+RewriteEngine On
+RewriteBase /app
+
+RewriteCond $1 !^(index\.php|pubsub\.php|favicon\.ico|.+\.js|.+\.css|.+\.png|.+\.gif|.+\.jpg|.+\.html|.+\.tpl)
+RewriteRule ^(.*)$ index.php [L]
+
+
